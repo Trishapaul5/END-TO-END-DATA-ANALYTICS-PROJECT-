@@ -1,0 +1,18 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+venv/
+.Python
+# Jupyter
+.ipynb_checkpoints/
+# Data and outputs
+data/raw/*
+!data/raw/customer_shopping_behavior.csv
+data/processed/*
+# VSCode
+.vscode/
+.env
